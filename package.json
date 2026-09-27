@@ -1,0 +1,15 @@
+{
+  "name": "email-verifier-validator",
+  "version": "2.0.0",
+  "type": "module",
+  "description": "Bulk email validation: MX, SMTP, disposable, catch-all detection. Python, Node.js and cURL clients for the Email Verifier & Validator on Apify, pay per result.",
+  "main": "email_verifier_validator.mjs",
+  "scripts": {
+    "start": "node email_verifier_validator.mjs"
+  },
+  "dependencies": {
+    "apify-client": "^2.9.0"
+  },
+  "license": "MIT",
+  "homepage": "https://themineworks.com/actors/email-verifier-validator/"
+}
