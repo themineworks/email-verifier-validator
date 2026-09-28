@@ -5,7 +5,7 @@ Verify any list of email addresses in bulk with no API key required. Checks synt
 **Run it on Apify:** [apify.com/themineworks/email-verifier-validator](https://apify.com/themineworks/email-verifier-validator)
 **Docs, FAQ and pricing:** [themineworks.com/actors/email-verifier-validator](https://themineworks.com/actors/email-verifier-validator/)
 
-**Price:** $2.50 per 1,000 emails on Apify's free plan, down to $1.50 on higher plans. Failed and empty results are never charged.
+**Price:** From $1.50 per 1,000 emails on Apify's higher plans ($2.50 on the free plan). Failed and empty results are never charged.
 
 ## What it returns
 
@@ -13,7 +13,7 @@ Verify any list of email addresses in bulk with no API key required. Checks synt
 * Disposable domain detection (60+ providers)
 * Catch-all heuristic probe
 * Role-based address tagging (info@, sales@…)
-* Zero charge on syntax failures
+* Addresses that fail syntax checks are never charged
 
 ## Quick start
 
@@ -131,11 +131,11 @@ A catch-all mail server accepts RCPT TO for any address, real or invented, at th
 
 ### How am I charged?
 
-Pay-per-result: $0.001 per verified email address. Addresses that fail syntax checking or verification are never charged.
+Pay per result: from $1.50 per 1,000 emails on Apify's higher plans, $2.50 on the free plan. Addresses that fail syntax checking or verification are never charged.
 
 ### How much does the Email Verifier & Validator cost?
 
-$2.50 per 1,000 emails on Apify's free plan, down to $1.50 on higher plans. Failed and empty results are never charged. You can cap what a single run may spend with the maximum cost setting on Apify.
+From $1.50 per 1,000 emails on Apify's higher plans ($2.50 on the free plan). Failed and empty results are never charged. You can cap what a single run may spend with the maximum cost setting on Apify.
 
 ### Can I export the results to CSV or Excel?
 
